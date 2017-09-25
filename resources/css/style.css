@@ -54,7 +54,7 @@ h2, h4 {
 
 .mission {
   display: flex;
-  background-image: url("C:/Program Files/Git/Tea_Cozy/resources/images/img-mission-background.jpg");
+  background-image: url("../images/img-mission-background.jpg");
   width: 1200px;
   height: 700px;
   padding-top: 70px;
@@ -86,7 +86,7 @@ h2, h4 {
 .locations {
   display: flex;
   flex-direction: column;
-  background-image: url("C:/Program Files/Git/Tea_Cozy/resources/images/img-locations-background.jpg");
+  background-image: url("../images/img-locations-background.jpg");
   margin-bottom: 0;
   height: 500px;
   width: 1200px;
