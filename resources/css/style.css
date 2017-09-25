@@ -1,0 +1,128 @@
+.header {
+  display: flex;
+  height: 69px;
+  position: fixed;
+  z-index: 1;
+  border-bottom: 1px solid seashell;
+  width: 100%;
+  top: 0;
+  left: 0;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+}
+
+.logo img {
+  height: 50px;
+  padding-left: 10px;
+}
+
+nav a {
+  text-decoration: underline;
+  color: seashell;
+  display: inline-block;
+  padding: 0px 10px;
+}
+
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+h2, h4 {
+  margin: 0;
+  padding: 10px;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.photo-text {
+  display: flex;
+  align-items: center;
+  background-color: black;
+  flex-direction: column;
+  width: 1200px;
+}
+
+.mission {
+  display: flex;
+  background-image: url("C:/Program Files/Git/Tea_Cozy/resources/images/img-mission-background.jpg");
+  width: 1200px;
+  height: 700px;
+  padding-top: 70px;
+  justify-content: center;
+  align-items: center;
+}
+
+.teamonth {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1000px;
+  padding: 70px 0px;
+}
+
+.item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.item img {
+  width: 300px;
+  height: 200px;
+  margin: 10px;
+}
+
+.locations {
+  display: flex;
+  flex-direction: column;
+  background-image: url("C:/Program Files/Git/Tea_Cozy/resources/images/img-locations-background.jpg");
+  margin-bottom: 0;
+  height: 500px;
+  width: 1200px;
+  padding-top: 70px;
+}
+
+#transparent {
+  background-color: transparent;
+}
+
+.location-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.branch {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  opacity: 1;
+  background-color: black;
+  margin: 0px 20px;
+}
+
+.footer {
+  height: 200px;
+  background-color: black;
+}
+
+h5 {
+  color: seashell;
+}
+
+.copyright {
+  text-align: left;
+  padding-left: 20px;
+}
